@@ -31,4 +31,7 @@ values ('c4','facebook','r1','p3@jmu.edu')
 --q2.6 need to modify the course table first because it won't work the other way around.
 update course
 set p_email = 'p3@jmu.edu'
-where p_email = 'p1@jmu.edu'
+where p_email = 'p1@jmu.edu' ;
+
+delete from professor
+where p_name = 'p1'
