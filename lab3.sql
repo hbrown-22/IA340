@@ -21,3 +21,6 @@ values ('s1@jmu.edu','c1'),
 		('s4@jmu.edu','c2'),
 		('s2@jmu.edu','c3'),
 		('s3@jmu.edu','c3')
+--q2.5
+insert into professor(p_email,p_name,office)
+values ('p3@jmu.edu','p3','o3')
