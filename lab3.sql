@@ -27,5 +27,4 @@ values ('p3@jmu.edu','p3','o3')
 
 insert into course(c_number,c_name,room,p_email)
 values ('c4','facebook','r1','p3@jmu.edu')
-
 --need to modify the professor table first because of the email.
